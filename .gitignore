@@ -1,27 +1,3 @@
-# Node
-node_modules/
-package-lock.json
-
-# Logs
-logs
+.env
 *.log
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-#IDE
-.idea
-*.iml
-*.ipr
-
-#Mac
-.DS_Store
-
-#Truffle
-build/
-secrets.json
-coverage.json
-coverage/
+node_modules

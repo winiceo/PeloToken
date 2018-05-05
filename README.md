@@ -1,23 +1,5 @@
-#Ethereum Smart Contracts for DevCoin
- 
-## Test locally
+# MFIL Ethereum Smart Contract
 
-    npm install -g ethereumjs-testrpc
-    npm install
-    npm test
-    
-## Deploy locally
+[![Main - MineFIL Token (MFIL) ERC20 Token Tracker](https://img.shields.io/badge/mainnet-MFIL-%2349C1C9.svg)](https://etherscan.io/token/0x5b2654150a35251991091a7ec5f260c751c68129 "Main - MineFIL Token (MFIL) ERC20 Token Tracker") [![Ropsten - MineFIL Token (MFIL) ERC20 Token Tracker](https://img.shields.io/badge/ropsten-MFIL-%2349C1C9.svg)](https://ropsten.etherscan.io/token/0x1564a92a0870af0ebf1f015f5fd223abaa3505ca "Ropsten - MineFIL Token (MFIL) ERC20 Token Tracker") [![Build Status](https://travis-ci.org/MineFIL/mfil-erc20-smart-contract.svg?style=flat-square?branch=master)](https://travis-ci.org/MineFIL/mfil-erc20-smart-contract) [![Maintainability](https://api.codeclimate.com/v1/badges/e99a01ed3b069c30d019/maintainability)](https://codeclimate.com/github/MineFIL/mfil-erc20-smart-contract/maintainability)
 
-* Start testrpc
-* Deploy the contracts using truffle: ```truffle migrate```
-* Then launch truffle console to play with the contracts: ```truffle console```  
-
-## Deploy on test net (Ropsten)
-
-The fastest way is to use Metamask rather than running your own node.
-
-## Deploy on live net
-
-## Security
-
-See https://consensys.github.io/smart-contract-best-practices/
+MineFIL is a decentralized [Filecoin](https://filecoin.io "https://filecoin.io") mining pool. Click [here](http://minefil.club "MineFIL Club") to know more.
