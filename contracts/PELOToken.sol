@@ -1,5 +1,5 @@
 
-pragma solidity ^0.4.11;
+pragma solidity ^0.4.23;
 
 import './Protection.sol';
 import './TokenRecipient.sol';
@@ -9,14 +9,10 @@ contract PELOToken is Protection, PausableToken {
 
 	string public name = "Peloponnesian";
 	string public symbol = "PELO";
-	uint256 public decimals = 18;
+	uint256 public decimals = 8;  // Set the number of decimals for display
+	uint256 public constant INITIAL_SUPPLY = 10000000000 * 10**uint256(decimals); // 10 Billion PELO specified in Grains
 
-	string public version = '0.0.2';
-
-	/**
-	 * @dev Cap for minted tokens.
-	 */
-	uint256 public cap;
+	string public version = '0.0.3';
 
 	/**
 	 * @dev Logged when claimed tokens were transferred to the owner.
@@ -25,6 +21,15 @@ contract PELOToken is Protection, PausableToken {
 	 * @param _value number of tokens transferred
 	 */
 	event ClaimTransfer (address indexed _to, uint256 _value);
+
+	/**
+	 * @dev Contructor that gives msg.sender all of existing tokens.
+	 */
+	function PELOToken() {
+		totalSupply_ = INITIAL_SUPPLY;
+		balances[msg.sender] = INITIAL_SUPPLY;
+		//Transfer(0x0, msg.sender, initialSupply);
+	}
 
 	/**
      * @dev Transfer with short address attack protection
@@ -57,4 +62,21 @@ contract PELOToken is Protection, PausableToken {
             return true;
         }
     }
+
+	/**
+   * @dev Peterson's Law Protection
+   * Claim tokens
+   */
+	function claimTokens(address _token) onlyOwner {
+		if (_token == 0x0) {
+			owner.transfer(this.balance);
+			return;
+		}
+
+		PELOToken token = PELOToken(_token);
+		uint balance = token.balanceOf(this);
+		token.transfer(owner, balance);
+
+		ClaimTransfer(owner, balance);
+	}
 }

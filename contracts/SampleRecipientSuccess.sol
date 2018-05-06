@@ -1,5 +1,5 @@
 
-pragma solidity ^0.4.11;
+pragma solidity ^0.4.23;
 
 contract SampleRecipientSuccess {
     /* @dev A Generic receiving function for contracts that accept tokens */

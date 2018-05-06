@@ -1,4 +1,4 @@
- # MFIL Ethereum Smart Contract Scripts
+ # PELO Ethereum Smart Contract Scripts
 
 ## Single-address Allocation
 

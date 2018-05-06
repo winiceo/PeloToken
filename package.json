@@ -1,18 +1,32 @@
 {
-  "name": "pelo-erc20-smart-contract",
-  "version": "0.0.1",
-  "description": "Peloponnesian ERC20 Ethereum Smart Contract",
+  "name": "pelo-token",
+  "version": "1.0.0",
+  "description": "T",
   "main": "truffle-config.js",
-  "scripts": {
-    "reload": "node -r dotenv/config truffle.js"
+  "directories": {
+    "test": "test"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reload": "node -r dotenv/config truffle.js",
+    "merge": "./node_modules/.bin/truffle-flattener contracts/PELOToken.sol >etherscan_contract.sol"
+  },
+  "keywords": [
+    "erc20",
+    "ethereum-smart-contract"
+  ],
+  "author": "Leven zsh",
+  "license": "ISC",
   "devDependencies": {
     "dotenv": "^4.0.0",
-    "truffle-hdwallet-provider": "0.0.3",
-    "web3": "^1.0.0-beta.29",
+    "ethereumjs-wallet": "^0.6.0",
+    "truffle-flattener": "^1.2.5",
+    "truffle-hdwallet-provider": "^0.0.5",
+    "truffle-wallet-provider": "0.0.5",
+    "web3": "^1.0.0-beta.34",
     "zeppelin-solidity": "^1.9.0"
   },
-  "author": "Frad Lee <fradser@minefil.net>",
-  "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "bignumber.js": "^7.0.1"
+  }
 }

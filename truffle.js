@@ -13,11 +13,17 @@ var gasPriceGwei = 60;
 var gasLimit = 3000000;
 // Truffle configuration for MFIL Ethereum Smart Contract
 module.exports = {
+    solc: {
+        optimizer: {
+            enabled: true,
+            runs: 200
+        }
+    },
     networks: {
         // Ganache
         development: {
             host: "127.0.0.1",
-            port: 7545,
+            port: 8545,
             network_id: "*"
         },
         rinkeby: {
