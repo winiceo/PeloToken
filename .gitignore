@@ -1,3 +1,5 @@
-/build
-/node_modules
-.env
+node_modules/
+.cache/
+
+migrations/*.js
+test/*.js

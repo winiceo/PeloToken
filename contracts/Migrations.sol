@@ -1,23 +1,22 @@
 pragma solidity ^0.4.23;
 
-contract Migrations {
-  address public owner;
-  uint public last_completed_migration;
+import { Ownable } from "./Ownable.sol";
 
-  modifier restricted() {
-    if (msg.sender == owner) _;
-  }
 
-  function Migrations() public {
-    owner = msg.sender;
-  }
+/**
+ * @title Truffle Migrations contract
+ * @dev It violates standard naming convention for compatibility with Truffle suite
+ * @dev It extends standard implementation with changeable owner.
+ */
+contract Migrations is Ownable {
+    uint public last_completed_migration;
 
-  function setCompleted(uint completed) public restricted {
-    last_completed_migration = completed;
-  }
+    function setCompleted(uint completed) public onlyOwner {
+        last_completed_migration = completed;
+    }
 
-  function upgrade(address new_address) public restricted {
-    Migrations upgraded = Migrations(new_address);
-    upgraded.setCompleted(last_completed_migration);
-  }
+    function upgrade(address new_address) public onlyOwner {
+        Migrations upgraded = Migrations(new_address);
+        upgraded.setCompleted(last_completed_migration);
+    }
 }

@@ -1,32 +1,51 @@
 {
-  "name": "pelo-token",
-  "version": "1.0.0",
-  "description": "T",
-  "main": "truffle-config.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "reload": "node -r dotenv/config truffle.js",
-    "merge": "./node_modules/.bin/truffle-flattener contracts/PELOToken.sol >etherscan_contract.sol"
-  },
-  "keywords": [
-    "erc20",
-    "ethereum-smart-contract"
-  ],
-  "author": "Leven zsh",
-  "license": "ISC",
-  "devDependencies": {
-    "dotenv": "^4.0.0",
-    "ethereumjs-wallet": "^0.6.0",
-    "truffle-flattener": "^1.2.5",
-    "truffle-hdwallet-provider": "^0.0.5",
-    "truffle-wallet-provider": "0.0.5",
-    "web3": "^1.0.0-beta.34",
-    "zeppelin-solidity": "^1.9.0"
-  },
-  "dependencies": {
-    "bignumber.js": "^7.0.1"
-  }
+    "name": "Peloponnesian-token",
+    "version": "1.0.0",
+    "description": "Peloponnesian token of Peloponnesian platform",
+    "main": "index.js",
+    "scripts": {
+        "compile": "run-p -c --aggregate-output compile:sol compile:ts",
+        "compile:sol": "truffle compile --contracts_build_directory .cache/contracts",
+        "compile:ts": "tsc",
+        "test": "run-s compile test:truffle",
+        "test:truffle": "truffle test --contracts_build_directory .cache/contracts",
+        "lint": "run-p -c --aggregate-output lint:solium lint:tslint",
+        "lint:tslint": "tslint --project .",
+        "lint:solium": "solium -d contracts",
+        "format": "prettier --write \"**/*.ts\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/winiceo/PeloToken.git"
+    },
+    "keywords": [
+        "Peloponnesian",
+        "erc20",
+        "token",
+        "ethereum"
+    ],
+    "author": {
+        "name": "Leven"
+
+    },
+    "license": "MIT",
+
+    "devDependencies": {
+        "@types/chai": "^4.1.2",
+        "@types/mocha": "^5.0.0",
+        "@types/node": "^9.6.2",
+        "@types/ramda": "^0.25.21",
+        "bignumber.js": "^5.0.0",
+        "chai": "^4.1.2",
+        "npm-run-all": "^4.1.2",
+        "prettier": "^1.11.1",
+        "ramda": "^0.25.0",
+        "solium": "^1.1.6",
+        "truffle": "^4.1.5",
+        "tslint": "^5.9.1",
+        "typescript": "^2.8.1", 
+        "dotenv": "^5.0.1",
+        "truffle-hdwallet-provider": "^0.0.5",
+        "zeppelin-solidity": "^1.9.0"
+    }
 }
