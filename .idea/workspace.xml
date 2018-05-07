@@ -2,27 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c598337e-28b2-4c3e-a437-00b31d477634" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.eslintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/PeloToken.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contracts/PELOToken.sol" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/etherscan_contract.sol" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/migrations/2_token_migration.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/pelo-token-contract-abi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/single-address-allocation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/PELOToken.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/truffle_wallet.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/PELOToken.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/helpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/pelo-token-contract-abi.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/peloponnesiantoken.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/single-address-allocation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/truffle1.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/contracts/MintableToken.json" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/contracts/MintableToken.sol" afterPath="$PROJECT_DIR$/lab/MintableToken.sol" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/helpers.ts" afterPath="$PROJECT_DIR$/scripts/helpers.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/peloponnesiantoken.test.ts" afterPath="$PROJECT_DIR$/scripts/peloponnesiantoken.test.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contracts/Migrations.sol" afterPath="$PROJECT_DIR$/contracts/Migrations.sol" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contracts/SampleRecipientSuccess.sol" afterPath="$PROJECT_DIR$/contracts/SampleRecipientSuccess.sol" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contracts/SampleRecipientThrow.sol" afterPath="$PROJECT_DIR$/contracts/SampleRecipientThrow.sol" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contracts/TokenRecipient.sol" afterPath="$PROJECT_DIR$/contracts/TokenRecipient.sol" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/migrations/1_initial_migration.js" afterPath="$PROJECT_DIR$/migrations/1_initial_migration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contracts/ERC20.json" afterPath="$PROJECT_DIR$/build/contracts/ERC20.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contracts/Migrations.json" afterPath="$PROJECT_DIR$/build/contracts/Migrations.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contracts/Ownable.json" afterPath="$PROJECT_DIR$/build/contracts/Ownable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contracts/Pausable.json" afterPath="$PROJECT_DIR$/build/contracts/Pausable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contracts/PausableToken.json" afterPath="$PROJECT_DIR$/build/contracts/PausableToken.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contracts/PeloponnesianToken.json" afterPath="$PROJECT_DIR$/build/contracts/PeloponnesianToken.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contracts/Protection.json" afterPath="$PROJECT_DIR$/build/contracts/Protection.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contracts/SafeMath.json" afterPath="$PROJECT_DIR$/build/contracts/SafeMath.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contracts/SampleRecipientSuccess.json" afterPath="$PROJECT_DIR$/build/contracts/SampleRecipientSuccess.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contracts/SampleRecipientThrow.json" afterPath="$PROJECT_DIR$/build/contracts/SampleRecipientThrow.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contracts/StandardToken.json" afterPath="$PROJECT_DIR$/build/contracts/StandardToken.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contracts/TokenRecipient.json" afterPath="$PROJECT_DIR$/build/contracts/TokenRecipient.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contracts/PeloponnesianToken.sol" afterPath="$PROJECT_DIR$/contracts/PeloponnesianToken.sol" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contracts/StandardToken.sol" afterPath="$PROJECT_DIR$/contracts/StandardToken.sol" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/truffle.js" afterPath="$PROJECT_DIR$/truffle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,51 +46,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web3.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/types/web3.d.ts">
+      <file leaf-file-name="truffle1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/truffle1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-614">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="474">
+              <caret line="57" column="28" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="57" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2_deploy_token.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/migrations/2_deploy_token.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="truffle.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="truffle.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/truffle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PeloponnesianToken.sol" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contracts/PeloponnesianToken.sol">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="340">
+              <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -90,90 +69,19 @@
       <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="truffle.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/types/truffle.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2926">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#2775#2816#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="peloponnesian.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/types/peloponnesian.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="27" />
-              <folding>
-                <element signature="e#37#208#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="truffle-config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/truffle-config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tslint.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tslint.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="633">
-                <caret line="80" column="8" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
-                <folding>
-                  <marker date="1525663835261" expanded="true" signature="2466:2533" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1_initial_migration.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/migrations/1_initial_migration.ts">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PeloponnesianToken.sol" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contracts/PeloponnesianToken.sol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,8 +91,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Solidity Contract" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -198,6 +106,7 @@
       <find>Photon</find>
       <find>230</find>
       <find>photon</find>
+      <find>onlySufficientAllowance</find>
     </findStrings>
     <replaceStrings>
       <replace>0.4.23</replace>
@@ -222,17 +131,22 @@
         <option value="$PROJECT_DIR$/contracts/PausableToken.sol" />
         <option value="$PROJECT_DIR$/contracts/Pausable.sol" />
         <option value="$PROJECT_DIR$/contracts/TokenRecipient.sol" />
-        <option value="$PROJECT_DIR$/contracts/PeloponnesianToken.sol" />
         <option value="$PROJECT_DIR$/test/helpers.ts" />
         <option value="$PROJECT_DIR$/types/photon.d.ts" />
         <option value="$PROJECT_DIR$/test/photontoken.test.ts" />
         <option value="$PROJECT_DIR$/contracts/SampleRecipientSuccess.sol" />
-        <option value="$PROJECT_DIR$/test/peloponnesiantoken.test.ts" />
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/migrations/1_initial_migration.ts" />
         <option value="$PROJECT_DIR$/migrations/2_deploy_token.ts" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/contracts/PeloponnesianToken.sol" />
+        <option value="$PROJECT_DIR$/test/peloponnesiantoken.test.ts" />
+        <option value="$PROJECT_DIR$/contracts/StandardToken.sol" />
+        <option value="$PROJECT_DIR$/test/PELOToken.js" />
+        <option value="$PROJECT_DIR$/scripts/single-address-allocation.js" />
+        <option value="$PROJECT_DIR$/scripts/pelo-token-contract-abi.json" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/truffle.js" />
       </list>
     </option>
   </component>
@@ -254,10 +168,10 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="34" />
-    <option name="y" value="45" />
-    <option name="width" value="1243" />
+    <option name="y" value="23" />
+    <option name="width" value="1246" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -291,8 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -313,12 +225,19 @@
             <path>
               <item name="PeloToken" type="b2602c69:ProjectViewProjectNode" />
               <item name="PeloToken" type="462c0819:PsiDirectoryNode" />
-              <item name="types" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PeloToken" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PeloToken" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,12 +251,15 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/lab" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/contracts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$/lab" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -364,19 +286,20 @@
       <option name="presentableId" value="Default" />
       <updated>1525662521695</updated>
       <workItem from="1525662523459" duration="8551000" />
-      <workItem from="1525673495525" duration="953000" />
+      <workItem from="1525673495525" duration="4498000" />
+      <workItem from="1525684614866" duration="3858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9504000" />
+    <option name="totallyTimeSpent" value="16907000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="23" width="1243" height="777" extended-state="6" />
+    <frame x="34" y="23" width="1246" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2316975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2295345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -419,7 +342,6 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/helpers.js" />
         <option value="$PROJECT_DIR$/migrations/2_deploy_token.js" />
         <option value="$PROJECT_DIR$/migrations/1_initial_migration.js" />
       </list>
@@ -433,42 +355,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/contracts/MintableToken.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/helpers.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/peloponnesiantoken.test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/PeloponnesianToken.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contracts/SafeMath.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-289">
@@ -558,14 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/PausableToken.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contracts/Pausable.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -600,7 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,39 +495,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/StandardToken.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/helpers.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/peloponnesiantoken.test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.prettierignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,43 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/MintableToken.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/types/web3.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-614">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/types/truffle.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2926">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2775#2816#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/types/peloponnesian.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#37#208#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,6 +548,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1360">
+            <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+            <folding>
+              <marker date="1525663835261" expanded="true" signature="2466:2533" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/types/truffle.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2775#2816#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/types/web3.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/helpers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/contracts/ERC20.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab/MintableToken.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/types/peloponnesian.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="e#37#208#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/peloponnesiantoken.test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2074">
+          <caret line="122" column="18" lean-forward="false" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1525683652841" expanded="true" signature="1818:4496" ph="{...}" />
+            <marker date="1525683652841" expanded="true" signature="1995:2064" ph="{...}" />
+            <marker date="1525683652841" expanded="true" signature="2131:2359" ph="{...}" />
+            <marker date="1525683652841" expanded="true" signature="2422:2670" ph="{...}" />
+            <marker date="1525683652841" expanded="true" signature="2732:3112" ph="{...}" />
+            <marker date="1525683652841" expanded="true" signature="3178:3629" ph="{...}" />
+            <marker date="1525683652841" expanded="true" signature="3707:3898" ph="{...}" />
+            <marker date="1525683652841" expanded="true" signature="3807:3883" ph="{...}" />
+            <marker date="1525683652841" expanded="true" signature="3976:4178" ph="{...}" />
+            <marker date="1525683652841" expanded="true" signature="4025:4163" ph="{...}" />
+            <marker date="1525683652841" expanded="true" signature="4084:4144" ph="{&quot;from&quot;: nonOwner...}" />
+            <marker date="1525683652841" expanded="true" signature="4258:4485" ph="{...}" />
+            <marker date="1525683652841" expanded="true" signature="4380:4470" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/PausableToken.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etherscan_contract.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="172" column="13" lean-forward="false" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/StandardToken.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/PELOToken.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="69" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/migrations/1_initial_migration.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -756,47 +694,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/truffle.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="84" lean-forward="false" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/PELOToken.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/single-address-allocation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="34" column="69" lean-forward="false" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/pelo-token-contract-abi.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="398" column="1" lean-forward="false" selection-start-line="398" selection-start-column="1" selection-end-line="398" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#8807#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/contracts/PeloponnesianToken.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="400" column="3" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="400" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/PeloponnesianToken.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="633">
-            <caret line="80" column="8" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
-            <folding>
-              <marker date="1525663835261" expanded="true" signature="2466:2533" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/PeloponnesianToken.sol">
+    <entry file="file://$PROJECT_DIR$/truffle1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="39" />
+        <state relative-caret-position="474">
+          <caret line="57" column="28" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="57" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/truffle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        <state relative-caret-position="340">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
         </state>
       </provider>

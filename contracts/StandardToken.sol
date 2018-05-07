@@ -28,7 +28,7 @@ contract StandardToken is ERC20 {
     }
 
     modifier onlySufficientAllowance(address from, address to, uint256 value) {
-        require(value <= _allowance[from][to]);
+        require(value <= _allowance[from][msg.sender]);
         _;
     }
 

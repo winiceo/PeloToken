@@ -1,29 +1,23 @@
 pragma solidity ^0.4.23;
 
-import { MintableToken } from "./MintableToken.sol";
 import './Protection.sol';
 import './TokenRecipient.sol';
 import './PausableToken.sol';
 
 
-contract PeloponnesianToken is Protection,PausableToken,MintableToken {
+contract PeloponnesianToken is Protection,PausableToken {
     string public name = "Peloponnesian";
     string public symbol = "PELO";
     uint256 public decimals = 18;
-    uint256 public maximumSupply = 100 * 10**8 * uint256(10**decimals);
+    uint256 public initialSupply = 100 * 10**8 * uint256(10**decimals);
 
-    constructor() public MintableToken(maximumSupply)
-    {
+
+    constructor( ) public {
+
+        _totalSupply = initialSupply;
+        _balanceOf[msg.sender] = initialSupply;
+
     }
-
-    /**
-	 * @dev Logged when claimed tokens were transferred to the owner.
-	 *
-	 * @param _to address of the owner, tokens were transferred to
-	 * @param _value number of tokens transferred
-	 */
-    event ClaimTransfer (address indexed _to, uint256 _value);
-
 
 
     /**
